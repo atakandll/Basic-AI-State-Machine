@@ -43,7 +43,7 @@ public class FirstState : State<AI>
     {
         if (_owner.switchState)
         {
-            _owner.stateMachine.ChangeState(FirstState.Instance);
+            _owner.stateMachine.ChangeState(SecondState.Instance);
         }
     }
 }
