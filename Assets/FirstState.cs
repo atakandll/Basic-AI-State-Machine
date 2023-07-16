@@ -41,6 +41,9 @@ public class FirstState : State<AI>
 
     public override void UpdateState(AI _owner)
     {
-
+        if (_owner.switchState)
+        {
+            _owner.stateMachine.ChangeState(FirstState.Instance);
+        }
     }
 }
