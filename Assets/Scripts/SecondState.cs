@@ -15,7 +15,7 @@ public class SecondState : State<AI>
         }
         instance = this;
     }
-    public static SecondState Instance //FirstState sınıfının yalnızca bir örneğinin olmasını sağlar
+    public static SecondState Instance //SecondState sınıfının yalnızca bir örneğinin olmasını sağlar
     {
         get
         {
